@@ -12,9 +12,13 @@ public class UpdGamSounder : MonoBehaviour
 
     private void OnEnable()
     {
-        if (PlayerPrefs.GetInt(Nmame) == 0)    ActivateOnorOff(false);
-        else            ActivateOnorOff(true);
+        ChangeBut();
+    }
 
+    public void ChangeBut()
+    {
+        if (PlayerPrefs.GetInt(Nmame) == 0) ActivateOnorOff(false);
+        else ActivateOnorOff(true);
     }
 
     public void ActivateOnorOff(bool isOff)
