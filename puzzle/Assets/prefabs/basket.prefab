@@ -72,10 +72,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_SortingLayerID: -1834192947
+  m_SortingLayer: 1
+  m_SortingOrder: -10
+  m_Sprite: {fileID: -1474843597, guid: 0460e644f6a031042b85cee096e956af, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cabd582cf60d4b48bfe63b8329e870a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collecteblePlayer: 0
+  collecteblePlayer: 1
   goodEffect: {fileID: 137758, guid: a67ce15f50785584d97708026f874d99, type: 3}
   goodClip: {fileID: 0}
   badEffect: {fileID: 195900, guid: ec61825cb06be72419bb09eee03af08c, type: 3}
@@ -120,7 +120,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.525, y: 1.3475}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -128,7 +128,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.5, y: 0.5}
-      - {x: -0.5, y: -0.5}
-      - {x: 0.5, y: -0.5}
-      - {x: 0.5, y: 0.5}
+    - - {x: 0.4689402, y: 0.45809639}
+      - {x: 0.039146855, y: 0.39944384}
+      - {x: -0.29790345, y: 0.4061152}
+      - {x: -0.53135955, y: 0.4422345}
+      - {x: -0.74915314, y: 0.5358366}
+      - {x: -0.6149217, y: 0.2500276}
+      - {x: 0.30303627, y: 0.15305449}
+      - {x: 0.6628056, y: 0.34920478}
+      - {x: 0.74223214, y: 0.5985501}
