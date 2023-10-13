@@ -18,13 +18,19 @@ public class basket : MonoBehaviour
 
         if (pla.type == collecteblePlayer)
         {
+
             Debug.Log("Good");
-            Instantiate(goodEffect, collision.gameObject.transform.position, Quaternion.identity);
+            pla.Destroy(goodEffect, true);
         }
         else
         {
             Debug.Log("Loose");
-            Instantiate(badEffect, collision.gameObject.transform.position, Quaternion.identity);
+            pla.Destroy(badEffect, false);
         }
+    }
+
+    private void Awake()
+    {
+        player.BallCounts++;
     }
 }
