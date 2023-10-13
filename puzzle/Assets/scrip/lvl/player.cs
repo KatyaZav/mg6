@@ -5,6 +5,32 @@ using UnityEngine;
 
 public class player : MonoBehaviour
 {
+    Rigidbody2D rb;
+
+
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+
+        ManagerWindowloseandWin.ChangePausedSettings += SetPause;
+    }
+
+    private void OnDestroy()
+    {
+        ManagerWindowloseandWin.ChangePausedSettings -= SetPause;
+        
+    }
+
+    void SetPause(bool isPause)
+    {
+        if (isPause)
+            rb.bodyType = RigidbodyType2D.Static;
+        else
+            rb.bodyType = RigidbodyType2D.Dynamic;
+
+            
+    }
+
     public static int BallCounts = 0;
 
     public TypePlayer type;
