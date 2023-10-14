@@ -15,6 +15,8 @@ public class dead : MonoBehaviour
 
             Destroy(collision.gameObject);
             Debug.Log("loose");
+
+            player.Loose();
         }
     }
 }
