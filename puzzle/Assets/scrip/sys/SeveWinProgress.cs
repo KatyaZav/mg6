@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class SeveWinProgress : MonoBehaviour
 {
-    public Text text;
+    //public Text text;
 
     private void OnEnable()
     {
@@ -25,5 +25,8 @@ public class SeveWinProgress : MonoBehaviour
             number++;
 
         PlayerPrefs.SetInt(Setting.level, number);
+
+        var coins = PlayerPrefs.GetInt(Setting.Coin, 0);
+        PlayerPrefs.SetInt(Setting.Coin, coins + 3);
     }
 }

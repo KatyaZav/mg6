@@ -53,4 +53,18 @@ public class uiMainManager : MonoBehaviour
         var scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(scene.name);
     }
+
+    public void NextLevel()
+    {
+        int loader;
+
+        var scene = SceneManager.GetActiveScene();
+
+        if (scene.name != "lvl4")
+            loader = scene.buildIndex + 1;
+        else
+            loader = scene.buildIndex;
+
+        SceneManager.LoadScene(loader);
+    }
 }
