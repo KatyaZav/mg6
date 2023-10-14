@@ -98,11 +98,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cabd582cf60d4b48bfe63b8329e870a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collecteblePlayer: 1
+  collecteblePlayer: 0
   goodEffect: {fileID: 137758, guid: a67ce15f50785584d97708026f874d99, type: 3}
-  goodClip: {fileID: 0}
+  goodClip: {fileID: 8300000, guid: 74ea4a2ad98acb241bdb9753be6cd8c4, type: 3}
   badEffect: {fileID: 195900, guid: ec61825cb06be72419bb09eee03af08c, type: 3}
-  badClip: {fileID: 0}
+  badClip: {fileID: 8300000, guid: 78195ace99d18804abcc15c5322be04d, type: 3}
 --- !u!60 &4939726034724103340
 PolygonCollider2D:
   m_ObjectHideFlags: 0

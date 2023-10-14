@@ -125,4 +125,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   effect: {fileID: 151244, guid: 8368975de5593844bbfaf74e342fb326, type: 3}
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: 78195ace99d18804abcc15c5322be04d, type: 3}
