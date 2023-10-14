@@ -36,7 +36,7 @@ public class SoundManagerBox : MonoBehaviour
 
     public void PlayClip(AudioClip c, float vol = 0.3f)
     {
-        //Debug.Log("Played"+clip);
+        Debug.Log("Played"+c);
 
         soundSorse.pitch =
             Random.Range(1 - pitch / 4, 1 + pitch);

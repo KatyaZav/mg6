@@ -13,7 +13,7 @@ public class ButtonSounds : MonoBehaviour
 
     public void SoundOnButtonClick()
     {
-        SoundManagerBox.Instance.PlayClip(buttonSound, 0.3f);
+        SoundManagerBox.Instance.PlayClip(buttonSound, 0.8f);
     }
 
     void ActivatesAllButton()

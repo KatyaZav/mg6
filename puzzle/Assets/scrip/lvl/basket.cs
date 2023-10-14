@@ -20,11 +20,13 @@ public class basket : MonoBehaviour
         {
 
             Debug.Log("Good");
+            SoundManagerBox.Instance.PlayClip(goodClip, 0.4f);
             pla.Destroy(goodEffect, true);
         }
         else
         {
             Debug.Log("Loose");
+            SoundManagerBox.Instance.PlayClip(badClip, 0.4f);
             pla.Destroy(badEffect, false);
         }
     }

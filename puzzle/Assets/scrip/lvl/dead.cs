@@ -12,6 +12,7 @@ public class dead : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             Instantiate(effect, collision.gameObject.transform.position, Quaternion.identity);
+            SoundManagerBox.Instance.PlayClip(clip, 0.5f);
 
             Destroy(collision.gameObject);
             Debug.Log("loose");
