@@ -34,5 +34,6 @@ public class basket : MonoBehaviour
     private void Awake()
     {
         player.BallCounts++;
+        //Debug.Log(player.BallCounts);
     }
 }

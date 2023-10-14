@@ -2330,6 +2330,7 @@ GameObject:
   - component: {fileID: 934642568}
   - component: {fileID: 934642572}
   - component: {fileID: 934642573}
+  - component: {fileID: 934642574}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2449,6 +2450,18 @@ MonoBehaviour:
   winGM: {fileID: 1283691288}
   loseGM: {fileID: 3429857840739341369}
   isCurTut: 0
+--- !u!114 &934642574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934642567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5db58bf02620834f850400633a2ec23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1116267199
 GameObject:
   m_ObjectHideFlags: 0

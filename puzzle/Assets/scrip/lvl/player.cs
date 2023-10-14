@@ -47,6 +47,7 @@ public class player : MonoBehaviour
         }
 
         BallCounts--;
+        Debug.Log("Balls: " + BallCounts);
 
         if (BallCounts <= 0)
             Win();

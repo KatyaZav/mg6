@@ -30,7 +30,7 @@ public class ManagerWindowloseandWin : MonoBehaviour
 
     public void ChangePause(bool isPause)
     {
-        Debug.Log("Pause");
+        //Debug.Log("Pause");
         ChangePausedSettings?.Invoke(isPause);
     }
 
