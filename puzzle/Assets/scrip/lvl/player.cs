@@ -46,11 +46,6 @@ public class player : MonoBehaviour
             return;
         }
 
-        BallCounts--;
-        Debug.Log("Balls: " + BallCounts);
-
-        if (BallCounts <= 0)
-            Win();
     }
 
     public static Action Loosed;

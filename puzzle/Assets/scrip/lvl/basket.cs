@@ -18,7 +18,7 @@ public class basket : MonoBehaviour
 
         if (pla.type == collecteblePlayer)
         {
-
+            aaa.Delete();
             Debug.Log("Good");
             SoundManagerBox.Instance.PlayClip(goodClip, 0.4f);
             pla.Destroy(goodEffect, true);
@@ -31,9 +31,9 @@ public class basket : MonoBehaviour
         }
     }
 
-    private void Awake()
+    private void Start()
     {
-        player.BallCounts++;
+        aaa.AddCoun();
         //Debug.Log(player.BallCounts);
     }
 }
