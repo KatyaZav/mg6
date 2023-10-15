@@ -61,6 +61,18 @@ public class player : MonoBehaviour
         Debug.Log("Win");
         Wined?.Invoke();
     }
+
+    public GameObject effect;
+    public AudioClip clip;
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag != "basket")
+        {
+            Instantiate(effect, transform.position, Quaternion.identity);
+            SoundManagerBox.Instance.PlayClip(clip);
+        }
+    }
 }
 
 
