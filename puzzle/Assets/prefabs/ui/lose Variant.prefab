@@ -187,8 +187,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 7.9128}
+  m_SizeDelta: {x: 0, y: -15.8256}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1136664033
 CanvasRenderer:
@@ -219,7 +219,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 963fb1f693057a24fb53e97aec168a2f, type: 3}
+    m_Font: {fileID: 12800000, guid: 46f18848224c74e43b572a1672e4496f, type: 3}
     m_FontSize: 90
     m_FontStyle: 0
     m_BestFit: 0
@@ -575,9 +575,29 @@ PrefabInstance:
       propertyPath: m_Text
       value: Retry
       objectReference: {fileID: 0}
+    - target: {fileID: 7831023011124051620, guid: 1429cfdeeae37f6479857b6fe9a04ca2, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7831023011124051621, guid: 1429cfdeeae37f6479857b6fe9a04ca2, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -60.7572
+      objectReference: {fileID: 0}
+    - target: {fileID: 7831023011124051621, guid: 1429cfdeeae37f6479857b6fe9a04ca2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 8.028595
+      objectReference: {fileID: 0}
     - target: {fileID: 7831023011211331907, guid: 1429cfdeeae37f6479857b6fe9a04ca2, type: 3}
       propertyPath: m_Text
       value: Try again!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7831023011211331908, guid: 1429cfdeeae37f6479857b6fe9a04ca2, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 318.3068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7831023011211331908, guid: 1429cfdeeae37f6479857b6fe9a04ca2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 10.4466
       objectReference: {fileID: 0}
     - target: {fileID: 7831023011287766090, guid: 1429cfdeeae37f6479857b6fe9a04ca2, type: 3}
       propertyPath: m_Pivot.x
@@ -665,7 +685,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7831023011287766091, guid: 1429cfdeeae37f6479857b6fe9a04ca2, type: 3}
       propertyPath: m_Name
-      value: lose
+      value: lose Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1429cfdeeae37f6479857b6fe9a04ca2, type: 3}

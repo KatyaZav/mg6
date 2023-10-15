@@ -67,7 +67,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 963fb1f693057a24fb53e97aec168a2f, type: 3}
+    m_Font: {fileID: 12800000, guid: 46f18848224c74e43b572a1672e4496f, type: 3}
     m_FontSize: 80
     m_FontStyle: 0
     m_BestFit: 0
@@ -394,7 +394,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4842544397051409167, guid: 5387afe1e1d9f204398b1d5078cc6345, type: 3}
       propertyPath: m_Name
-      value: win
+      value: win Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4842544397127020039, guid: 5387afe1e1d9f204398b1d5078cc6345, type: 3}
       propertyPath: m_Text
