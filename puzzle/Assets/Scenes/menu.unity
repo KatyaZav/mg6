@@ -2407,6 +2407,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 7831023010939801717, guid: 1429cfdeeae37f6479857b6fe9a04ca2, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7831023011124051620, guid: 1429cfdeeae37f6479857b6fe9a04ca2, type: 3}
       propertyPath: m_Text
       value: Play

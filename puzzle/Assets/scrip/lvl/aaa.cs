@@ -14,7 +14,7 @@ public class aaa : MonoBehaviour
     {
         Counts++;
 
-        Debug.Log(Counts);
+        //Debug.Log(Counts);
     } 
 
     public static void Delete()

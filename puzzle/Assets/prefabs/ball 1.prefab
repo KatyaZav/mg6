@@ -138,7 +138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  effect: {fileID: 2837609728858217907, guid: 30538aa757d5768459b127b9b70d4362, type: 3}
+  effect: {fileID: 7946065230293018824, guid: d1eb01280e52f4b48a44227d6fdf6c78, type: 3}
   clip: {fileID: 8300000, guid: 43f9fd2668d755f49a9282cce9f63c66, type: 3}
 --- !u!114 &6695623728532914731
 MonoBehaviour:

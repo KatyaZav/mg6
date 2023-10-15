@@ -67,10 +67,17 @@ public class player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag != "basket")
+        if (collision.gameObject.tag == "box")
         {
-            Instantiate(effect, transform.position, Quaternion.identity);
-            SoundManagerBox.Instance.PlayClip(clip);
+            var e = UnityEngine.Random.Range(1, 5);
+
+
+            if (e < 3)
+            {
+                //Debug.Log(e);
+                Instantiate(effect, transform.position, Quaternion.identity);
+                SoundManagerBox.Instance.PlayClip(clip);
+            }
         }
     }
 }
