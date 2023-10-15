@@ -6,15 +6,69 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/menu.unity
+    path: Assets/Scenes/New Folder/menu.unity
     guid: 5c5ef510af6e73b46bcad46dff22f323
   - enabled: 1
-    path: Assets/Scenes/tutorial.unity
+    path: Assets/Scenes/New Folder/tutorial.unity
     guid: 110a74e964811e4499413702c94056a2
   - enabled: 1
-    path: Assets/Scenes/lvl1.unity
+    path: Assets/Scenes/New Folder/lvl1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/lvl2.unity
+    path: Assets/Scenes/New Folder/lvl2.unity
+    guid: c26fb0977c526c54c8098f3fcd2dbad6
+  - enabled: 1
+    path: Assets/Scenes/New Folder/lvl3.unity
     guid: 2f59daa7ea92b314b955a09ba2c4d23f
+  - enabled: 1
+    path: Assets/Scenes/New Folder/lvl4.unity
+    guid: ac0d4ec86a72cb944aae1d8bd194c1c8
+  - enabled: 1
+    path: Assets/Scenes/pop 1.unity
+    guid: e4ed6dea4153c8941b317585dbcd9a2c
+  - enabled: 1
+    path: Assets/Scenes/pop 2.unity
+    guid: 754a3fb44a02c434bb149eb5bf1de3d5
+  - enabled: 1
+    path: Assets/Scenes/pop 3.unity
+    guid: 9a730cdd2f394704ebc6662b60406e0c
+  - enabled: 1
+    path: Assets/Scenes/pop 4.unity
+    guid: 10018bd99de1ac74b9017db5ccea941e
+  - enabled: 1
+    path: Assets/Scenes/pop 5.unity
+    guid: 6b0a347a88d60cb44b5310e7e1f906b8
+  - enabled: 1
+    path: Assets/Scenes/pop 6.unity
+    guid: f026f243adc182b40be57a8aa4398f12
+  - enabled: 1
+    path: Assets/Scenes/pop 7.unity
+    guid: cf09099f704f04b48aae3041145d08aa
+  - enabled: 1
+    path: Assets/Scenes/pop 8.unity
+    guid: 301471b06f8e5b444a6b12edbe1bacd3
+  - enabled: 1
+    path: Assets/Scenes/pop 9.unity
+    guid: e62f81491326c5647a47106e052b3664
+  - enabled: 1
+    path: Assets/Scenes/pop 10.unity
+    guid: 814564b61d72ab54abae58ef5723f0c1
+  - enabled: 1
+    path: Assets/Scenes/pop 11.unity
+    guid: da5eb9000a43c194185f0accebfbe583
+  - enabled: 1
+    path: Assets/Scenes/pop 12.unity
+    guid: 785c2ced315f7a947815fc2d16364530
+  - enabled: 1
+    path: Assets/Scenes/pop 13.unity
+    guid: 0948a36992681ab4c8a63ef5718f642b
+  - enabled: 1
+    path: Assets/Scenes/pop 14.unity
+    guid: 45e123c4d43380f45b8a3ccb88a90361
+  - enabled: 1
+    path: Assets/Scenes/pop 15.unity
+    guid: 424eda0d580d0974abbe1e313f8ff9f0
+  - enabled: 1
+    path: Assets/Scenes/pop 16.unity
+    guid: 671b6deb176f6dc46bf6e8e6023ae7e4
   m_configObjects: {}
