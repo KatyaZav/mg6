@@ -28,8 +28,16 @@ public class shop : MonoBehaviour
 
     private void OnEnable()
     {
-        UpdateSkinInfo();
+        try
+        {
         UpdateTextCoin();
+        UpdateSkinInfo();
+
+        }
+        catch (System.Exception e)
+        {
+            Debug.Log(e);
+        }
     }
 
     void UpdateSkinInfo()
@@ -48,11 +56,20 @@ public class shop : MonoBehaviour
 
     void UpdateButtons(bool isActive)
     {
-        var textOfBuyButton = buyButton.GetComponentInChildren<Text>();
+        try
+        {
+        //var textOfBuyButton = buyButton.GetComponentInChildren<Text>();
         CoinsCost.text = string.Format($"{curSkin * 5}");
 
         selectButton.SetActive(isActive);
         buyButton.SetActive(!isActive);
+
+        }
+        catch (System.Exception e)
+        {
+            Debug.Log(e);
+        }
+        
     }
 
     public void MoveLeft()
