@@ -17,6 +17,7 @@ public class shop : MonoBehaviour
     }
 
     public Text textOfCoins;
+    public Text CoinsCost;
     public Sprite[] AllSkins;
 
     public Image skinOfImage;
@@ -48,7 +49,7 @@ public class shop : MonoBehaviour
     void UpdateButtons(bool isActive)
     {
         var textOfBuyButton = buyButton.GetComponentInChildren<Text>();
-        textOfBuyButton.text = "Buy" + string.Format($"( {curSkin * 5} )");
+        CoinsCost.text = string.Format($"{curSkin * 5}");
 
         selectButton.SetActive(isActive);
         buyButton.SetActive(!isActive);
