@@ -4120,16 +4120,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7831023011211331907, guid: 1429cfdeeae37f6479857b6fe9a04ca2, type: 3}
+      propertyPath: m_Text
+      value: Chalice of Egypt
+      objectReference: {fileID: 0}
+    - target: {fileID: 7831023011211331907, guid: 1429cfdeeae37f6479857b6fe9a04ca2, type: 3}
       propertyPath: m_FontData.m_FontSize
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 7831023011211331908, guid: 1429cfdeeae37f6479857b6fe9a04ca2, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 781.8
+      value: 744.2
       objectReference: {fileID: 0}
     - target: {fileID: 7831023011211331908, guid: 1429cfdeeae37f6479857b6fe9a04ca2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -27.8
+      value: -28.9
       objectReference: {fileID: 0}
     - target: {fileID: 7831023011211331908, guid: 1429cfdeeae37f6479857b6fe9a04ca2, type: 3}
       propertyPath: m_AnchoredPosition.y
